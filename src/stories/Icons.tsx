@@ -1,5 +1,6 @@
 import iconMap from 'icons/_iconMap'
 import Tooltip from 'components/Tooltip'
+import { useMemo, useState } from 'react'
 
 export const Icons = ({
   size,
@@ -11,24 +12,42 @@ export const Icons = ({
   strokeWidth: number
 }) => {
   const icons = Object.keys(iconMap)
+  const [searchText, setSearchText] = useState('')
+
+  const filteredIcons = useMemo(() => {
+    return icons.filter((icon) =>
+      icon.toLowerCase().includes(searchText.toLowerCase())
+    )
+  }, [icons, searchText])
 
   return (
-    <div className="storybook-page grid grid-cols-10 gap-8">
-      {icons.map((icon) => {
-        const IconToRender = iconMap[icon]
+    <div className="storybook-page flex flex-col justify-center">
+      <label htmlFor="search">Pesquisa</label>
+      <input
+        className="mb-8 rounded-lg border-2 border-gray-300 p-2"
+        type="text"
+        id="search"
+        value={searchText}
+        onChange={(e) => setSearchText(e.target.value)}
+      />
 
-        return (
-          <Tooltip copyToClipboard text={icon} key={icon}>
-            <div className="rounded-xl bg-gray-800 p-4">
-              <IconToRender
-                color={color}
-                size={size}
-                strokeWidth={strokeWidth}
-              />
-            </div>
-          </Tooltip>
-        )
-      })}
+      <div className="grid grid-cols-12 gap-8">
+        {filteredIcons.map((icon) => {
+          const IconToRender = iconMap[icon]
+
+          return (
+            <Tooltip copyToClipboard text={icon} key={icon}>
+              <div className="w-fit rounded-xl bg-gray-100 p-4">
+                <IconToRender
+                  color={color}
+                  size={size}
+                  strokeWidth={strokeWidth}
+                />
+              </div>
+            </Tooltip>
+          )
+        })}
+      </div>
     </div>
   )
 }

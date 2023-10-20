@@ -25,7 +25,7 @@ export const ButtonWithIcon: Story = {
   args: {
     label: 'Button',
     icon: {
-      name: 'AddIcon',
+      name: 'AddCircleIcon',
       side: 'left',
       color: 'white',
       stroke: 1.5
@@ -82,12 +82,6 @@ ButtonAllVariants.story = {
 export const ButtonWithTooltip: Story = {
   args: {
     label: 'Button',
-    tooltip: 'This is a tooltip',
-    icon: {
-      name: 'AddIcon',
-      side: 'left',
-      color: 'white',
-      stroke: 1.5
-    }
+    tooltip: 'This is a tooltip'
   }
 }
