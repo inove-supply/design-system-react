@@ -18,7 +18,7 @@ import {
   ButtonVariants,
   ButtonWidths
 } from './enums'
-import Tooltip from '@components/Tooltip'
+import Tooltip from 'components/Tooltip'
 
 interface CommonProps {
   onClick?: (
@@ -51,7 +51,7 @@ interface ButtonProps extends CommonProps {
   variant?: keyof typeof ButtonVariants
 }
 
-export const Button = ({
+const Button = ({
   refProp,
   label,
   link,
@@ -166,3 +166,5 @@ export const Button = ({
     )
   }
 }
+
+export default Button
