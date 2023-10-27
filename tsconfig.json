@@ -2,7 +2,10 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "@icons/*": ["./icons/*"],
+      "@utils/*": ["./utils/*"],
     },
     "target": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],

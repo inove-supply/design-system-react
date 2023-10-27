@@ -8,8 +8,8 @@ import {
   classAlign
 } from './button-styles'
 
-import { SpinnerIcon } from '../../icons/SpinnerIcon'
-import iconMap from 'icons/_iconMap'
+import { SpinnerIcon } from '@icons/SpinnerIcon'
+import iconMap from '@icons/_iconMap'
 import {
   ButtonAligns,
   ButtonSizes,
@@ -18,7 +18,7 @@ import {
   ButtonVariants,
   ButtonWidths
 } from './enums'
-import Tooltip from 'components/Tooltip'
+import Tooltip from '@components/Tooltip'
 
 interface CommonProps {
   onClick?: (
