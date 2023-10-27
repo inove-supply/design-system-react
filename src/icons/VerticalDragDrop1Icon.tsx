@@ -19,6 +19,7 @@ export const VerticalDragDrop1Icon = ({
       <path
         d="M6 6.5H6.00634M6 12.5H6.00634M6 18.5H6.00634M11.9968 6.5H12.0032M11.9968 12.5H12.0032M11.9968 18.5H12.0032M17.9937 6.5H18M17.9937 12.5H18M17.9937 18.5H18"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

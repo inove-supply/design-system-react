@@ -19,36 +19,42 @@ export const WaterfallDown03Icon = ({
       <path
         d="M2 21H22"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M20 18L20 16"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M16 15L16 10"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M12 13L12 10"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M8 10L8 3"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M4 10L4 9"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

@@ -19,6 +19,7 @@ export const WiseIcon = ({
       <path
         d="M11 22L19.0001 2H7.00008L9.5 6.5L5 11H12"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

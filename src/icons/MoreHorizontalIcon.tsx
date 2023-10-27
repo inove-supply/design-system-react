@@ -19,18 +19,21 @@ export const MoreHorizontalIcon = ({
       <path
         d="M11.9959 12H12.0049"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M17.9998 12H18.0088"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M5.99981 12H6.00879"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

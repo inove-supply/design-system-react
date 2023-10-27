@@ -19,18 +19,21 @@ export const Table02Icon = ({
       <path
         d="M2 4H22"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M19.5 4L22 20M4.5 4L2 20"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M4 9H20"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

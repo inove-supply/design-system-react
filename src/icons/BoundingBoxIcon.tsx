@@ -19,6 +19,7 @@ export const BoundingBoxIcon = ({
       <path
         d="M6 4H10M4 10V6M12 6V10M6 12H10M14 12H18M20 14V18M12 14V18M14 20H18"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -27,6 +28,7 @@ export const BoundingBoxIcon = ({
         cy="4"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -35,6 +37,7 @@ export const BoundingBoxIcon = ({
         cy="12"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -43,6 +46,7 @@ export const BoundingBoxIcon = ({
         cy="4"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -51,6 +55,7 @@ export const BoundingBoxIcon = ({
         cy="12"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -59,6 +64,7 @@ export const BoundingBoxIcon = ({
         cy="12"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -67,6 +73,7 @@ export const BoundingBoxIcon = ({
         cy="20"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -75,6 +82,7 @@ export const BoundingBoxIcon = ({
         cy="20"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

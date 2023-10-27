@@ -19,10 +19,17 @@ export const GreaterThanCircleIcon = ({
       <path
         d="M10 8L13.3322 11.0203C14.2226 11.8273 14.2226 12.1727 13.3322 12.9797L10 16"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle cx="12" cy="12" r="10" strokeWidth={strokeWidth} />
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
     </svg>
   )
 }

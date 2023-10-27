@@ -19,6 +19,7 @@ export const ArrowUp01RoundIcon = ({
       <path
         d="M18 15C18 15 13.5811 9.00001 12 9C10.4188 8.99999 6 15 6 15"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

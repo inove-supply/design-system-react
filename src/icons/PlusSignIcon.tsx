@@ -19,6 +19,7 @@ export const PlusSignIcon = ({
       <path
         d="M12 4V20M20 12H4"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

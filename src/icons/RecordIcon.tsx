@@ -21,6 +21,7 @@ export const RecordIcon = ({
         cy="12"
         r="8"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinejoin="round"
       />
     </svg>

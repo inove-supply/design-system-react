@@ -19,12 +19,14 @@ export const ArrowTurnBackwardSharpIcon = ({
       <path
         d="M11 6H15.5C17.9853 6 20 8.01472 20 10.5C20 12.9853 17.9853 15 15.5 15H5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M7 18L4.70711 15.7071C4.37377 15.3738 4.20711 15.2071 4.20711 15C4.20711 14.7929 4.37377 14.6262 4.70711 14.2929L7 12"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

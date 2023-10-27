@@ -19,19 +19,27 @@ export const Chemistry01Icon = ({
       <path
         d="M3 9L11 9M20 9L17 9"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M17 4V14.7857C17 16.5609 15.6569 18 14 18C12.3431 18 11 16.5609 11 14.7857V4"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M5 3V13C5 16.7712 5 18.6569 6.17157 19.8284C7.34315 21 9.22876 21 13 21H21"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
-      <path d="M10 4L18 4" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M10 4L18 4"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
     </svg>
   )
 }

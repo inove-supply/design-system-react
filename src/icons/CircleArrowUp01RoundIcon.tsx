@@ -16,10 +16,17 @@ export const CircleArrowUp01RoundIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <circle cx="12" cy="12" r="10" strokeWidth={strokeWidth} />
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
       <path
         d="M16 13.5C16 13.5 13.054 10.5 12 10.5C10.9459 10.5 8 13.5 8 13.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

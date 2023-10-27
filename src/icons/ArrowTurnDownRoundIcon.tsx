@@ -19,12 +19,14 @@ export const ArrowTurnDownRoundIcon = ({
       <path
         d="M6 13L6 8.5C6 6.01472 8.01472 4 10.5 4C12.9853 4 15 6.01472 15 8.5V20"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M12 17C12 17 14.2095 20 15 20C15.7906 20 18 17 18 17"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

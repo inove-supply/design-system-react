@@ -16,10 +16,17 @@ export const MoveRightIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <circle cx="5" cy="12" r="3" strokeWidth={strokeWidth} />
+      <circle
+        cx="5"
+        cy="12"
+        r="3"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
       <path
         d="M22 11.9999L12 11.9999M22 11.9999C22 12.5619 21.5619 12.9891 20.6857 13.8436L19.0294 15.5M22 11.9999C22 11.4378 21.5619 11.0106 20.6857 10.1561L19.0296 8.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

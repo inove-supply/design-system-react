@@ -23,6 +23,7 @@ export const More03Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="18"
@@ -31,6 +32,7 @@ export const More03Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="18"
@@ -39,6 +41,7 @@ export const More03Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="10.5"
@@ -47,6 +50,7 @@ export const More03Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="10.5"
@@ -55,6 +59,7 @@ export const More03Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="10.5"
@@ -63,6 +68,7 @@ export const More03Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="3"
@@ -71,6 +77,7 @@ export const More03Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="3"
@@ -79,8 +86,17 @@ export const More03Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
-      <rect x="3" y="3" width="3" height="3" rx="1" strokeWidth={strokeWidth} />
+      <rect
+        x="3"
+        y="3"
+        width="3"
+        height="3"
+        rx="1"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
     </svg>
   )
 }

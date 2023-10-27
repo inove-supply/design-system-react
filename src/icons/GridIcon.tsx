@@ -16,10 +16,30 @@ export const GridIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <path d="M7 2V22" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M17 2V22" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M22 7L2 7" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M22 17L2 17" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M7 2V22"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M17 2V22"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M22 7L2 7"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M22 17L2 17"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
     </svg>
   )
 }

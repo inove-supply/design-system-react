@@ -16,10 +16,17 @@ export const CircleArrowRight01SharpIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <circle cx="12" cy="12" r="10" strokeWidth={strokeWidth} />
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
       <path
         d="M10.5 16L13.275 12.3C13.4083 12.1222 13.4083 11.8778 13.275 11.7L10.5 8"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

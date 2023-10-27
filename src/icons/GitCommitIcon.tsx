@@ -19,10 +19,17 @@ export const GitCommitIcon = ({
       <path
         d="M12 3L12 8.5M12 21L12 15"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle cx="12" cy="12" r="3" strokeWidth={strokeWidth} />
+      <circle
+        cx="12"
+        cy="12"
+        r="3"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
     </svg>
   )
 }

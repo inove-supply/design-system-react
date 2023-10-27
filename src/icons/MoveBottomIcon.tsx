@@ -19,6 +19,7 @@ export const MoveBottomIcon = ({
       <path
         d="M11.9999 22L11.9999 12M11.9999 22C12.5619 22 12.9891 21.5619 13.8436 20.6857L15.5 19.0294M11.9999 22C11.4378 22 11.0106 21.5619 10.1561 20.6857L8.5 19.0296"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -26,6 +27,7 @@ export const MoveBottomIcon = ({
         r="3"
         transform="matrix(4.37114e-08 1 1 -4.37114e-08 12 5)"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
     </svg>
   )

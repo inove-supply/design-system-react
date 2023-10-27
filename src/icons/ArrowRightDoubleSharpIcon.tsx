@@ -19,12 +19,14 @@ export const ArrowRightDoubleSharpIcon = ({
       <path
         d="M13 18L17.4665 12.6402C17.7216 12.3341 17.8491 12.181 17.8491 12C17.8491 11.819 17.7216 11.6659 17.4665 11.3598L13 6"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M6 18L10.4665 12.6402C10.7216 12.3341 10.8491 12.181 10.8491 12C10.8491 11.819 10.7216 11.6659 10.4665 11.3598L6 6"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

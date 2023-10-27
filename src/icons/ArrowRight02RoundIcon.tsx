@@ -19,12 +19,14 @@ export const ArrowRight02RoundIcon = ({
       <path
         d="M20 12L4 12"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M15 17C15 17 20 13.3176 20 12C20 10.6824 15 7 15 7"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

@@ -23,6 +23,7 @@ export const MoreHorizontalSquare01Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="10.5"
@@ -31,6 +32,7 @@ export const MoreHorizontalSquare01Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <rect
         x="3"
@@ -39,6 +41,7 @@ export const MoreHorizontalSquare01Icon = ({
         height="3"
         rx="1"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
     </svg>
   )

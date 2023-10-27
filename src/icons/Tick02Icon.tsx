@@ -19,6 +19,7 @@ export const Tick02Icon = ({
       <path
         d="M5 14L8.5 17.5L19 6.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

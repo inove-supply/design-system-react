@@ -19,10 +19,17 @@ export const PlusMinusCircle01Icon = ({
       <path
         d="M12 7.5V13.8636M15.5 10.6818H8.5M15.5 16.5H8.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle cx="12" cy="12" r="10" strokeWidth={strokeWidth} />
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
     </svg>
   )
 }

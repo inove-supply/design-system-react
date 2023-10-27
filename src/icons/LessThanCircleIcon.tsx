@@ -19,10 +19,17 @@ export const LessThanCircleIcon = ({
       <path
         d="M14 8L10.6678 11.0203C9.77741 11.8273 9.77741 12.1727 10.6678 12.9797L14 16"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle cx="12" cy="12" r="10" strokeWidth={strokeWidth} />
+      <circle
+        cx="12"
+        cy="12"
+        r="10"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
     </svg>
   )
 }

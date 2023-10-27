@@ -19,6 +19,7 @@ export const MinusSignIcon = ({
       <path
         d="M20 12L4 12"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

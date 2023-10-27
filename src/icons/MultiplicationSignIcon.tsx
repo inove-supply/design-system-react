@@ -19,6 +19,7 @@ export const MultiplicationSignIcon = ({
       <path
         d="M18 6L12 12M12 12L6 18M12 12L18 18M12 12L6 6"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

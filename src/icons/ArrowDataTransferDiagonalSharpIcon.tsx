@@ -19,12 +19,14 @@ export const ArrowDataTransferDiagonalSharpIcon = ({
       <path
         d="M9 19L18.2929 9.70711C19.0194 8.98058 19.3827 8.61732 19.6913 8.74517C20 8.87302 20 9.38675 20 10.4142V13.7619"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M15 5L5.70711 14.2929C4.98058 15.0194 4.61732 15.3827 4.30866 15.2548C4 15.127 4 14.6133 4 13.5858V10"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

@@ -19,30 +19,35 @@ export const WifiOff01Icon = ({
       <path
         d="M8.5 14.5C9.62137 13.3944 10.9643 12.887 12.5 13.0212"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M18.5 11.4999C17.0073 10.1793 15.2848 9.2742 13.5 9"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M5.5 11.5C6.59299 10.5892 7.778 9.91306 9 9.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M22 8.49989C18.0717 5.18273 13.7362 3.92879 9.5 4.73808"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M2 8.5C3.22409 7.46632 4.5 6.5 5.5 6"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -51,10 +56,16 @@ export const WifiOff01Icon = ({
         cy="18"
         r="1.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path d="M2 2L22 22" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M2 2L22 22"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
     </svg>
   )
 }

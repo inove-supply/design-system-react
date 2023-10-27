@@ -19,10 +19,12 @@ export const LayerMaskIcon = ({
       <path
         d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <path
         d="M8.5 2.62939C12.2967 4.04813 15 7.70826 15 11.9998C15 16.2913 12.2967 19.9514 8.5 21.3702"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
     </svg>
   )

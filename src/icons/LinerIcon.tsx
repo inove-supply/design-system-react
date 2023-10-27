@@ -19,6 +19,7 @@ export const LinerIcon = ({
       <path
         d="M3 20L21 4"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

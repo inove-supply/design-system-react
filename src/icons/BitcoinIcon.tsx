@@ -19,17 +19,25 @@ export const BitcoinIcon = ({
       <path
         d="M6 4H14.4C16.3882 4 18 5.79086 18 8C18 10.2091 16.3882 12 14.4 12M14.4 12C16.3882 12 18 13.7909 18 16C18 18.2091 16.3882 20 14.4 20H6M14.4 12H7.2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
-      <path d="M7 4V20" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M7 4V20"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
       <path
         d="M9 2L9 4M14 2V4"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M9 20L9 22M14 20V22"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
     </svg>

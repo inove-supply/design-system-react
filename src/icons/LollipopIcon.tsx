@@ -21,12 +21,19 @@ export const LollipopIcon = ({
         cy="8"
         r="6"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
-      <path d="M12 14V22" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M12 14V22"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
       <path
         d="M6 7.96583C7 6.50024 9 5.66956 10.2857 6.12289C11.7609 6.64301 12.0271 8.38105 13.5 8.90723C15 9.44311 15.5 7.47002 18 7.93564"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
     </svg>

@@ -16,9 +16,24 @@ export const TextItalicIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <path d="M12 4H19" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M8 20L16 4" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M5 20H12" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M12 4H19"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M8 20L16 4"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M5 20H12"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
     </svg>
   )
 }

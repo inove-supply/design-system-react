@@ -16,9 +16,27 @@ export const ChartBubble02Icon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <circle cx="5" cy="7" r="3" strokeWidth={strokeWidth} />
-      <circle cx="8" cy="18" r="4" strokeWidth={strokeWidth} />
-      <circle cx="17" cy="7" r="5" strokeWidth={strokeWidth} />
+      <circle
+        cx="5"
+        cy="7"
+        r="3"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
+      <circle
+        cx="8"
+        cy="18"
+        r="4"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
+      <circle
+        cx="17"
+        cy="7"
+        r="5"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
     </svg>
   )
 }

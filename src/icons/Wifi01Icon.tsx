@@ -19,18 +19,21 @@ export const Wifi01Icon = ({
       <path
         d="M8.25 14.5C10.25 12.5 13.75 12.5 15.75 14.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M18.5 11.5C14.7324 8.16667 9.5 8.16667 5.5 11.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M2 8.5C8.31579 3.16669 15.6842 3.16668 22 8.49989"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -39,6 +42,7 @@ export const Wifi01Icon = ({
         cy="18"
         r="1.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

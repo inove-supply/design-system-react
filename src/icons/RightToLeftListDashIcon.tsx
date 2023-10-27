@@ -16,12 +16,42 @@ export const RightToLeftListDashIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <path d="M3 5L15 5" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M19 5L21 5" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M3 12L15 12" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M19 12L21 12" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M3 19L15 19" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M19 19L21 19" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M3 5L15 5"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M19 5L21 5"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M3 12L15 12"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M19 12L21 12"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M3 19L15 19"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M19 19L21 19"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
     </svg>
   )
 }

@@ -21,6 +21,7 @@ export const PayoneerIcon = ({
         cy="12"
         r="9.5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

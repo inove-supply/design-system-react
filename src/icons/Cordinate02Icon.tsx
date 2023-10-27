@@ -19,22 +19,26 @@ export const Cordinate02Icon = ({
       <path
         d="M13.5 2L12 3.5M12 3.5V5M12 3.5L10.5 2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M2 14H5L2 17H5"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M19 14L22 17M22 14L19 17"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M12 8V16M12 16L3 22M12 16L21 22"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
     </svg>

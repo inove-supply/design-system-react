@@ -19,16 +19,19 @@ export const SoilTemperatureGlobalIcon = ({
       <path
         d="M12.832 18.0001C13.1442 17.2857 13.5374 16.6148 14 15.999"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M21.9984 8C15.6563 8 10.2992 12.217 8.57812 18"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M21.9993 4C13.4329 4 6.26423 9.98405 4.44531 18"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
@@ -39,16 +42,19 @@ export const SoilTemperatureGlobalIcon = ({
       <path
         d="M2 10C2.87815 10 3.72986 10.1132 4.54134 10.3258"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M2 6C3.86605 6 5.64683 6.36509 7.27481 7.02772"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M2 2C5.17533 2 8.15863 2.82221 10.7486 4.26534"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
     </svg>

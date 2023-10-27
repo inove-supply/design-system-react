@@ -16,12 +16,31 @@ export const DashboardCircleAddIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <circle cx="6.25" cy="6.25" r="4.25" strokeWidth={strokeWidth} />
-      <circle cx="17.75" cy="17.75" r="4.25" strokeWidth={strokeWidth} />
-      <circle cx="6.25" cy="17.75" r="4.25" strokeWidth={strokeWidth} />
+      <circle
+        cx="6.25"
+        cy="6.25"
+        r="4.25"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
+      <circle
+        cx="17.75"
+        cy="17.75"
+        r="4.25"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
+      <circle
+        cx="6.25"
+        cy="17.75"
+        r="4.25"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
       <path
         d="M18 2V10M22 6L14 6"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

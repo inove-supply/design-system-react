@@ -16,27 +16,45 @@ export const LeftToRightListBulletIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <path d="M8 5L20 5" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M8 5L20 5"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
       <path
         d="M4 5H4.00898"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M4 12H4.00898"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M4 19H4.00898"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path d="M8 12L20 12" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M8 19L20 19" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M8 12L20 12"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M8 19L20 19"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
     </svg>
   )
 }

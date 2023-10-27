@@ -19,21 +19,42 @@ export const GitPullRequestClosedIcon = ({
       <path
         d="M6 8L6 16"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M18 11L18 16"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle cx="6" cy="18" r="2" strokeWidth={strokeWidth} />
-      <circle cx="6" cy="6" r="2" strokeWidth={strokeWidth} />
-      <circle cx="18" cy="18" r="2" strokeWidth={strokeWidth} />
+      <circle
+        cx="6"
+        cy="18"
+        r="2"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
+      <circle
+        cx="6"
+        cy="6"
+        r="2"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
+      <circle
+        cx="18"
+        cy="18"
+        r="2"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
       <path
         d="M20 4L18 6M18 6L16 8M18 6L20 8M18 6L16 4"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

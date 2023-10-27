@@ -19,6 +19,7 @@ export const ArrowUp01SharpIcon = ({
       <path
         d="M6 15L11.2929 9.70711C11.6262 9.37377 11.7929 9.20711 12 9.20711C12.2071 9.20711 12.3738 9.37377 12.7071 9.70711L18 15"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

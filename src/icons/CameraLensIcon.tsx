@@ -21,6 +21,7 @@ export const CameraLensIcon = ({
         cy="12"
         r="10"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinejoin="round"
       />
       <circle
@@ -28,11 +29,13 @@ export const CameraLensIcon = ({
         cy="12"
         r="4"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinejoin="round"
       />
       <path
         d="M12 8H21M16 12V21M8 12V3M12 16H3"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
     </svg>

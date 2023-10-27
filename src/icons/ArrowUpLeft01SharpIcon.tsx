@@ -16,10 +16,16 @@ export const ArrowUpLeft01SharpIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <path d="M7 7L18 18" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M7 7L18 18"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
       <path
         d="M6 13V7C6 6.5286 6 6.29289 6.14645 6.14645C6.29289 6 6.5286 6 7 6H13"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

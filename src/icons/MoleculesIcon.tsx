@@ -21,6 +21,7 @@ export const MoleculesIcon = ({
         cy="13"
         r="4"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -29,6 +30,7 @@ export const MoleculesIcon = ({
         cy="4"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -37,6 +39,7 @@ export const MoleculesIcon = ({
         cy="20"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
@@ -45,12 +48,14 @@ export const MoleculesIcon = ({
         cy="20"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M12 9V6M18.5 18.5L15 16M5.5 18.5L9 16"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

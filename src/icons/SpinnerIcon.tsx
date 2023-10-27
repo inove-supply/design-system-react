@@ -23,6 +23,7 @@ export const SpinnerIcon = ({
         r="10"
         stroke="currentColor"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
       <path
         className="opacity-75"

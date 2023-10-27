@@ -16,12 +16,28 @@ export const RightToLeftBlockQuoteIcon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <path d="M7 6L15 6" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M5 12L15 12" strokeWidth={strokeWidth} strokeLinecap="round" />
-      <path d="M7 18L15 18" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <path
+        d="M7 6L15 6"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M5 12L15 12"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
+      <path
+        d="M7 18L15 18"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
       <path
         d="M19 3L19 21"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

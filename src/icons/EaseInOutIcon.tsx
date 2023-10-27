@@ -19,6 +19,7 @@ export const EaseInOutIcon = ({
       <path
         d="M21 4C11.0535 4 12.9465 20 3 20"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

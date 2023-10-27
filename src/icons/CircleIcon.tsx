@@ -21,6 +21,7 @@ export const CircleIcon = ({
         cy="12"
         r="10"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinejoin="round"
       />
     </svg>

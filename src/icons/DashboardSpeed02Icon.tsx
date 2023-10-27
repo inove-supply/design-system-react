@@ -16,11 +16,23 @@ export const DashboardSpeed02Icon = ({
       xmlns="http://www.w3.org/2000/svg"
       className={`text-${color} stroke-current`}
     >
-      <circle cx="12" cy="18" r="3" strokeWidth={strokeWidth} />
-      <path d="M12 15V10" strokeWidth={strokeWidth} strokeLinecap="round" />
+      <circle
+        cx="12"
+        cy="18"
+        r="3"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
+      <path
+        d="M12 15V10"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinecap="round"
+      />
       <path
         d="M22 13C22 7.47715 17.5228 3 12 3C6.47715 3 2 7.47715 2 13"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
     </svg>

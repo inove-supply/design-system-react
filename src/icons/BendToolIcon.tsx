@@ -21,6 +21,7 @@ export const BendToolIcon = ({
         cy="4"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <circle
@@ -28,11 +29,13 @@ export const BendToolIcon = ({
         cy="20"
         r="2"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M5 18C5 10 10 4 17 4"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
     </svg>

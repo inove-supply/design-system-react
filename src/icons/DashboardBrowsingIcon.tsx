@@ -19,18 +19,34 @@ export const DashboardBrowsingIcon = ({
       <path
         d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
       />
-      <path d="M2.5 9H21.5" strokeWidth={strokeWidth} strokeLinejoin="round" />
-      <path d="M6.99981 6H7.00879" strokeWidth={strokeWidth} />
-      <path d="M10.9998 6H11.0088" strokeWidth={strokeWidth} />
+      <path
+        d="M2.5 9H21.5"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+        strokeLinejoin="round"
+      />
+      <path
+        d="M6.99981 6H7.00879"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
+      <path
+        d="M10.9998 6H11.0088"
+        strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
+      />
       <path
         d="M17 17C17 14.2386 14.7614 12 12 12C9.23858 12 7 14.2386 7 17"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
       />
       <path
         d="M12.707 15.293L11.2928 16.7072"
         strokeWidth={strokeWidth}
+        style={{ strokeWidth: `${strokeWidth} !important` }}
         strokeLinecap="round"
         strokeLinejoin="round"
       />
