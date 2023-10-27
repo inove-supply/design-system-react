@@ -8,8 +8,8 @@ import {
   classAlign
 } from './button-styles'
 
-import { SpinnerIcon } from '@icons/SpinnerIcon'
-import iconMap from '@icons/_iconMap'
+import { SpinnerIcon } from '../../icons/SpinnerIcon'
+import iconMap from 'icons/_iconMap'
 import {
   ButtonAligns,
   ButtonSizes,

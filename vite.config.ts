@@ -2,11 +2,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tsconfigPaths from 'vite-tsconfig-paths'
-import path from 'path'
+import path, { resolve } from 'path'
+import WindiCSS from 'vite-plugin-windicss'
+import * as packageJson from './package.json'
 
 // https://vitejs.dev/config https://vitest.dev/config
 export default defineConfig({
-  plugins: [react(), tsconfigPaths()],
+  plugins: [react(), tsconfigPaths(), WindiCSS()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src/'),
@@ -20,5 +22,16 @@ export default defineConfig({
     environment: 'happy-dom',
     setupFiles: '.vitest/setup',
     include: ['**/test.{ts,tsx}']
+  },
+  build: {
+    lib: {
+      entry: resolve('src', 'index.ts'),
+      name: 'I9DesignSystem',
+      formats: ['es', 'umd'],
+      fileName: (format) => `i9-ds.${format}.js`
+    },
+    rollupOptions: {
+      external: [...Object.keys(packageJson.dependencies)]
+    }
   }
 })
