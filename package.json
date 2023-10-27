@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-vite-tailwindcss-boilerplate",
+  "name": "i9-ds",
   "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
   "version": "0.1.0",
   "private": true,
@@ -61,5 +61,19 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
-  }
+  },
+  "main": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inove-supply/design-system-react.git"
+  },
+  "keywords": [
+    "ds"
+  ],
+  "author": "Fábio Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inove-supply/design-system-react/issues"
+  },
+  "homepage": "https://github.com/inove-supply/design-system-react#readme"
 }
