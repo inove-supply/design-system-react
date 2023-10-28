@@ -1,7 +1,7 @@
 {
   "name": "i9-ds",
   "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "private": false,
   "scripts": {
     "dev": "vite",
