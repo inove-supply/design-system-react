@@ -47,5 +47,8 @@ export default defineConfig({
     },
     target: 'esnext',
     sourcemap: true
+  },
+  types: {
+    entry: './dist/index.d.ts'
   }
 })
