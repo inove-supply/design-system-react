@@ -25,8 +25,8 @@
     "outDir": "dist",
     "declaration": true,
     "declarationMap": true,
-    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"],
-    "typeRoots": ["node_modules/@types", "src/component/index.d.ts"]
+    "typeRoots": ["node_modules/@types", "src/component/index.d.ts"],
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"]
   },
 
   "include": ["src"],
