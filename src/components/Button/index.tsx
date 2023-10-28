@@ -33,7 +33,7 @@ interface IconProps {
   color?: string
 }
 
-interface ButtonProps extends CommonProps {
+export interface ButtonProps extends CommonProps {
   refProp?: React.LegacyRef<HTMLButtonElement>
   label?: string
   link?: string
