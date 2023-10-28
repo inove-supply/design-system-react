@@ -5,7 +5,7 @@
       "@/*": ["./*"],
       "@components/*": ["./components/*"],
       "@icons/*": ["./icons/*"],
-      "@utils/*": ["./utils/*"],
+      "@utils/*": ["./utils/*"]
     },
     "target": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -19,8 +19,11 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    // "noEmit": true,
     "jsx": "react-jsx",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
     "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"]
   },
   "include": ["src"],

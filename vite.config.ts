@@ -5,10 +5,18 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 import path, { resolve } from 'path'
 import WindiCSS from 'vite-plugin-windicss'
 import * as packageJson from './package.json'
+import plugin from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config https://vitest.dev/config
 export default defineConfig({
-  plugins: [react(), tsconfigPaths(), WindiCSS()],
+  plugins: [
+    plugin({
+      jsxRuntime: 'classic'
+    }),
+    react(),
+    tsconfigPaths(),
+    WindiCSS()
+  ],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src/'),
@@ -31,7 +39,10 @@ export default defineConfig({
       fileName: (format) => `i9-ds.${format}.js`
     },
     rollupOptions: {
-      external: [...Object.keys(packageJson.dependencies)]
+      external: [
+        'react/jsx-runtime',
+        ...Object.keys(packageJson.peerDependencies)
+      ]
     }
   }
 })
