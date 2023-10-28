@@ -33,16 +33,19 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: resolve('src', 'index.ts'),
+      entry: resolve(__dirname, 'src', 'index.ts'),
       name: 'I9DesignSystem',
-      formats: ['es', 'umd'],
-      fileName: (format) => `i9-ds.${format}.js`
+      formats: ['es', 'cjs'],
+      fileName: (ext) => `index.${ext}.js`
     },
     rollupOptions: {
       external: [
         'react/jsx-runtime',
-        ...Object.keys(packageJson.peerDependencies)
+        ...Object.keys(packageJson.peerDependencies),
+        ...Object.keys(packageJson.dependencies)
       ]
-    }
+    },
+    target: 'esnext',
+    sourcemap: true
   }
 })
