@@ -1,7 +1,3 @@
-import 'tailwindcss/tailwind.css'
+import './index.css'
 
-import Button, { ButtonProps } from './components/Button'
-
-export type { ButtonProps }
-
-export { Button }
+export * from "./components"

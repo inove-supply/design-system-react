@@ -1,33 +1,17 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"],
-      "@components/*": ["./components/*"],
-      "@icons/*": ["./icons/*"],
-      "@utils/*": ["./utils/*"]
-    },
-    "target": "ESNext",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "Node",
-    "useDefineForClassFields": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    // "noEmit": true,
+    "target": "es2016",
     "jsx": "react-jsx",
-    "outDir": "dist",
+    "module": "ESNext",
+    "moduleResolution": "node",
     "declaration": true,
-    "declarationMap": true,
-    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"]
-  },
-
-  "include": ["src"],
-  "exclude": ["node_modules"]
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "declarationDir": "types",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
 }

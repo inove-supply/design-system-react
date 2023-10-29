@@ -1,41 +1,41 @@
-import type { Meta, StoryObj } from '@storybook/react'
-import Button from 'components/Button'
-import { ButtonThemes, ButtonVariants } from 'components/Button/enums'
+import type { Meta, StoryObj } from "@storybook/react";
+import { Button } from "../components";
+import { ButtonThemes, ButtonVariants } from "../components/Button/Enums";
 
 const meta: Meta<typeof Button> = {
-  title: 'Example/Button',
+  title: "Example/Button",
   component: Button,
   parameters: {
-    layout: 'centered'
+    layout: "centered",
   },
-  tags: ['autodocs']
-} satisfies Meta<typeof Button>
+  tags: ["autodocs"],
+} satisfies Meta<typeof Button>;
 
-export default meta
-type Story = StoryObj<typeof meta>
+export default meta;
+type Story = StoryObj<typeof meta>;
 
 export const ButtonDefault: Story = {
   args: {
-    label: 'Button',
-    variant: 'primary'
-  }
-}
+    label: "Button",
+    variant: "primary",
+  },
+};
 
 export const ButtonWithIcon: Story = {
   args: {
-    label: 'Button',
+    label: "Button",
     icon: {
-      name: 'AddCircleIcon',
-      side: 'left',
-      color: 'white',
-      stroke: 1.5
-    }
-  }
-}
+      name: "SpinnerIcon",
+      side: "left",
+      color: "white",
+      stroke: 1.5,
+    },
+  },
+};
 
 export const ButtonAllVariants = () => {
-  const availableVariants = Object.values(ButtonVariants)
-  const availableThemes = Object.values(ButtonThemes)
+  const availableVariants = Object.values(ButtonVariants);
+  const availableThemes = Object.values(ButtonThemes);
 
   return (
     <div className="flex flex-col gap-8">
@@ -52,7 +52,7 @@ export const ButtonAllVariants = () => {
                     variant={variant}
                     label="Button"
                   />
-                )
+                );
               })}
             </div>
             <div className="flex gap-2">
@@ -65,23 +65,23 @@ export const ButtonAllVariants = () => {
                     label="Button"
                     isDisabled
                   />
-                )
+                );
               })}
             </div>
           </div>
-        )
+        );
       })}
     </div>
-  )
-}
+  );
+};
 
 ButtonAllVariants.story = {
-  name: 'Variants'
-}
+  name: "Variants",
+};
 
 export const ButtonWithTooltip: Story = {
   args: {
-    label: 'Button',
-    tooltip: 'This is a tooltip'
-  }
-}
+    label: "Button",
+    tooltip: "This is a tooltip",
+  },
+};
