@@ -1,3 +1,4 @@
+import iconMap from '../../icons/_iconMap'
 import {
     ButtonAligns,
     ButtonSizes,
@@ -16,7 +17,7 @@ export interface CommonProps {
 }
 
 export interface IconProps {
-    name: string
+    name: keyof typeof iconMap
     side?: 'left' | 'right'
     stroke?: number
     color?: string

@@ -15,6 +15,31 @@ import Tooltip from "../Tooltip/Tooltip";
 
 import { ButtonProps } from "./Button.types";
 
+/**
+ * @typedef {Object} MyButtonProps
+ * @property {React.LegacyRef<HTMLButtonElement>} refProp - A referência para o botão
+ * @property {string} label - O texto do botão
+ * @property {string} link - O link para o botão
+ * @property {IconProps} icon - As propriedades do ícone
+ * @property {boolean} submit - Indica se o botão é um botão de envio
+ * @property {keyof typeof ButtonSizes} size - O tamanho do botão
+ * @property {keyof typeof ButtonWidths} width - A largura do botão
+ * @property {keyof typeof ButtonAligns} align - O alinhamento do botão
+ * @property {string} customClass - A classe personalizada do botão
+ * @property {string} tooltip - O texto do tooltip
+ * @property {boolean} isLoading - Indica se o botão está carregando
+ * @property {boolean} isDisabled - Indica se o botão está desabilitado
+ * @property {keyof typeof ButtonThemes} theme - O tema do botão
+ * @property {keyof typeof ButtonTypes} type - O tipo do botão
+ * @property {keyof typeof ButtonVariants} variant - A variante do botão
+ * @property {React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>} onClick - O evento de clique do botão
+ */
+
+/**
+ * @param {MyButtonProps} props - As propriedades do botão
+ * @returns {JSX.Element} - O elemento do botão
+ */
+
 const Button = ({
   refProp,
   label,
