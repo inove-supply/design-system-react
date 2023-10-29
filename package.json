@@ -1,9 +1,11 @@
 {
-  "name": "teste-ds",
-  "version": "0.0.1",
+  "name": "i9-ds",
+  "version": "0.1.21",
   "description": "Just a Test",
+  "private": false,
   "scripts": {
-    "rollup-build-lib": "rollup -c",
+    "build": "rollup -c",
+    "deploy": "npm version patch && npm publish",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
