@@ -78,4 +78,13 @@ interface TooltipProps {
 
 declare const Tooltip: ({ children, text, copyToClipboard }: TooltipProps) => react_jsx_runtime.JSX.Element;
 
-export { Button, Tooltip };
+type Size = "small" | "medium" | "large";
+type AvatarProps = {
+    size?: Size;
+    src?: string;
+    alt?: string;
+};
+
+declare function Avatar({ size, src, alt }: AvatarProps): react_jsx_runtime.JSX.Element;
+
+export { Avatar, Button, Tooltip };
