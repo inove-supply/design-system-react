@@ -14,7 +14,7 @@ export const classAlign = {
 export const classTheme = {
   text: 'p-0',
   default: 'p-3 rounded-lg',
-  outline: 'p-3 border-[1px] rounded-lg bg-transparent'
+  outline: 'p-3 border-solid border-[1px] rounded-lg bg-transparent'
 }
 
 export const classVariant = {
