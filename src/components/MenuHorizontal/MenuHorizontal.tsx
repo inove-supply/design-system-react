@@ -54,7 +54,9 @@ const Categories = ({ navigation }: { navigation: NavigationProps[] }) => {
       ) : item.nextLink ? (
         <LinkComponent {...item} />
       ) : (
-        <a href={item.href}>{item.label}</a>
+        <a href={item.href} target={item.externalLink ? "_blank" : "_self"}>
+          {item.label}
+        </a>
       )}
     </li>
   ));
@@ -82,6 +84,7 @@ export const SelectedCategoryMenus = ({
             <LinkComponent {...subitem} />
           ) : (
             <a
+              target={subitem.externalLink ? "_blank" : "_self"}
               onClick={() => handleMouseLeave()}
               href={subitem.href}
               className="flex gap-2 items-center"
