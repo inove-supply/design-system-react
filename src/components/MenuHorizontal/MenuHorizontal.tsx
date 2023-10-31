@@ -12,9 +12,11 @@ function LinkComponent<T extends React.ElementType>({
 }: NavigationProps<T>) {
   const Component = nextLink as ComponentType<any>;
 
+  const Icon = icon ? iconMap[icon] : null;
+
   return (
     <Component href={href}>
-      {icon} {label}
+      {Icon && <Icon strokeWidth={1.5} />} {label}
     </Component>
   );
 }
