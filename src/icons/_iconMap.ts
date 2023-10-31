@@ -23,7 +23,7 @@ import { LockIcon } from './LockIcon';
 import { LogIcon } from './LogIcon';
 import { MapIcon } from './MapIcon';
 import { ParamIcon } from './ParamIcon';
-import { RampIcon } from './ramp';
+import { RampIcon } from './RampIcon';
 import { RefreshIcon } from './RefreshIcon';
 import { RejectIcon } from './RejectIcon';
 import { SorterIcon } from './SorterIcon';
@@ -33,6 +33,11 @@ import { UnlockIcon } from './UnlockIcon';
 import { UsersIcon } from './UsersIcon';
 import { UserIcon } from './UserIcon';
 import { ExportIcon } from './ExportIcon';
+import { CancelIcon } from './CancelIcon';
+import { ConfigIcon } from './ConfigIcon';
+import { WavesIcon } from './WavesIcon';
+
+
 
 
 type IconProps = {
@@ -50,6 +55,7 @@ type IconProps = {
 
 const iconMap: IconProps = {
   AddIcon,
+  CancelIcon,
   DeleteIcon,
   EditIcon,
   EraseIcon,
@@ -81,7 +87,9 @@ const iconMap: IconProps = {
   SpinnerIcon,
   StationIcon,
   UsersIcon,
-  UserIcon
+  UserIcon,
+  WavesIcon,
+  ConfigIcon,
 };
 
 export default iconMap
