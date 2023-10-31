@@ -33,6 +33,8 @@ const Categories = ({ navigation }: { navigation: NavigationProps[] }) => {
             />
           )}
         </>
+      ) : item.nextLink ? (
+        item.nextLink
       ) : (
         <a href={item.href}>{item.label}</a>
       )}
