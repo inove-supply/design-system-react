@@ -1,7 +1,7 @@
-export interface NavigationProps {
+export interface NavigationProps<T extends React.ElementType = "a"> {
   label: string;
   href?: string;
-  nextLink?: JSX.Element;
+  nextLink?: T;
   icon?: string;
   subNav?: NavigationProps[];
 }

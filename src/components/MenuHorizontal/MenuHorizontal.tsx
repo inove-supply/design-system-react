@@ -1,7 +1,23 @@
-import { useState } from "react";
+import { ComponentType, useState } from "react";
 
 import iconMap from "../../icons/_iconMap";
 import { NavigationProps } from "./MenuHorizontal.types";
+import React from "react";
+
+function LinkComponent<T extends React.ElementType>({
+  nextLink,
+  href,
+  icon,
+  label,
+}: NavigationProps<T>) {
+  const Component = nextLink as ComponentType<any>;
+
+  return (
+    <Component href={href}>
+      {icon} {label}
+    </Component>
+  );
+}
 
 const Categories = ({ navigation }: { navigation: NavigationProps[] }) => {
   const [hoveredCategory, setHoveredCategory] = useState<string | null>(null);
@@ -34,7 +50,7 @@ const Categories = ({ navigation }: { navigation: NavigationProps[] }) => {
           )}
         </>
       ) : item.nextLink ? (
-        item.nextLink
+        <LinkComponent {...item} />
       ) : (
         <a href={item.href}>{item.label}</a>
       )}
@@ -60,19 +76,24 @@ export const SelectedCategoryMenus = ({
 
       return (
         <li className="text-blue-900 text-base" key={subitem.label}>
-          <a
-            onClick={() => handleMouseLeave()}
-            href={subitem.href}
-            className="flex gap-2 items-center"
-          >
-            {Icon && <Icon strokeWidth={1.5} />}
-            {subitem.label}
-          </a>
+          {subitem.nextLink ? (
+            <LinkComponent {...subitem} />
+          ) : (
+            <a
+              onClick={() => handleMouseLeave()}
+              href={subitem.href}
+              className="flex gap-2 items-center"
+            >
+              {Icon && <Icon strokeWidth={1.5} />}
+              {subitem.label}
+            </a>
+          )}
         </li>
       );
     }) ?? []
   );
 };
+
 const DropdownMenu = ({
   hoveredMenu,
   handleMouseLeave,
