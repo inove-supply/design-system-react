@@ -15,7 +15,7 @@ function LinkComponent<T extends React.ElementType>({
   const Icon = icon ? iconMap[icon] : null;
 
   return (
-    <Component href={href}>
+    <Component className="flex gap-2 items-center" href={href}>
       {Icon && <Icon strokeWidth={1.5} />} {label}
     </Component>
   );
