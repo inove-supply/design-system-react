@@ -5,4 +5,5 @@ export interface NavigationProps<T extends React.ElementType = "a"> {
   externalLink?: boolean;
   icon?: string;
   subNav?: NavigationProps[];
+  customClass?: string;
 }
