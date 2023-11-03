@@ -36,7 +36,9 @@ import { ExportIcon } from './ExportIcon';
 import { CancelIcon } from './CancelIcon';
 import { ConfigIcon } from './ConfigIcon';
 import { WavesIcon } from './WavesIcon';
+import { MenuIcon } from './MenuIcon';
 
+import { MaximizeIcon } from './MaximizeIcon';
 
 
 
@@ -90,6 +92,9 @@ const iconMap: IconProps = {
   UserIcon,
   WavesIcon,
   ConfigIcon,
+  MenuIcon,
+  MaximizeIcon,
+
 };
 
 export default iconMap
