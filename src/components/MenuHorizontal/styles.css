@@ -5,7 +5,6 @@ p {
 }
 
 .NavigationMenuRoot {
-
   display: flex;
   width: 100vw;
   z-index: 1;
@@ -20,7 +19,7 @@ p {
   margin: 0;
 }
 
-.NavigationMenuList li button{
+.NavigationMenuList li button {
   display: flex;
   align-items: center;
 }
@@ -104,12 +103,13 @@ p {
   margin-top: 10px;
   width: 100%;
   background-color: white;
-  border-radius: 6px;
-  overflow: hidden;
+  border-radius: 0px;
+  /* overflow: hidden; */
   box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
     hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
   height: var(--radix-navigation-menu-viewport-height);
   transition: width, height, 300ms ease;
+  border-top: 2px solid #1274d9;
 }
 .NavigationMenuViewport[data-state="open"] {
   animation: scaleIn 200ms ease;
@@ -165,9 +165,22 @@ p {
   display: flex;
   justify-content: center;
   width: 100%;
-  top: 45px;
+  top: 48px;
   left: 0;
   perspective: 2000px;
+  padding-top: 24px;
+}
+
+.HoveredMenu {
+  position: absolute;
+  width: fit-content;
+  background: #1274d9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 46px;
+  justify-self: center;
+  margin-top: -45px;
+  z-index: 99999999999999999999 !important;
 }
 
 [data-state="open"] > .CaretDown {

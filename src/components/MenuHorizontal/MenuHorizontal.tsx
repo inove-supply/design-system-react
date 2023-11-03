@@ -33,7 +33,10 @@ const Categories = ({ navigation }: { navigation: NavigationProps[] }) => {
             {item.label} <CaretDownIcon className="CaretDown" aria-hidden />
           </NavigationMenu.Trigger>
           <NavigationMenu.Content className="NavigationMenuContent">
-            <DropdownMenu navigationDropdown={item.subNav} />
+            <DropdownMenu
+              hoveredMenu={item.label}
+              navigationDropdown={item.subNav}
+            />
           </NavigationMenu.Content>
         </>
       ) : item.nextLink ? (
@@ -88,11 +91,14 @@ export const SelectedCategoryMenus = ({
 
 const DropdownMenu = ({
   navigationDropdown,
+  hoveredMenu,
 }: {
   navigationDropdown: NavigationProps[];
+  hoveredMenu: string;
 }) => {
   return (
-    <ul className="List two">
+    <ul className="List">
+      <div className="HoveredMenu">{hoveredMenu}</div>
       <SelectedCategoryMenus navigationDropdown={navigationDropdown} />
     </ul>
   );
