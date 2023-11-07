@@ -6,7 +6,7 @@ p {
 
 .NavigationMenuRoot {
   display: flex;
-  width: 100vw;
+  width: fit-content;
   z-index: 1;
 }
 
