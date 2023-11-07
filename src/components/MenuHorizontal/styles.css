@@ -165,10 +165,10 @@ p {
   display: flex;
   justify-content: center;
   width: 100%;
-  top: 46px;
+  top: 54px;
   left: 0;
   perspective: 2000px;
-  padding-top: 24px;
+  padding-top: 9px;
 }
 
 .HoveredMenu {
