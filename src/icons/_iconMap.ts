@@ -44,6 +44,7 @@ import { WavesIcon } from './WavesIcon';
 import { MenuIcon } from './MenuIcon';
 import { MaximizeIcon } from './MaximizeIcon';
 import { ClockIcon } from './ClockIcon';
+import { SearchIcon } from './SearchIcon';
 
 
 
@@ -105,6 +106,7 @@ const iconMap: IconProps = {
   MenuIcon,
   MaximizeIcon,
   ClockIcon,
+  SearchIcon,
 };
 
 export default iconMap

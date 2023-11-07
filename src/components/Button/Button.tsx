@@ -38,7 +38,7 @@ const Button = ({
     if (isLoading) {
       return (
         <span className={marginSide}>
-          <SpinnerIcon />
+          <SpinnerIcon color="white" />
         </span>
       );
     }
