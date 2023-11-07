@@ -4,6 +4,11 @@ import { DoubleArrowRightIcon } from './DoubleArrowRightIcon';
 import { DoubleArroUpIcon } from './DoubleArroUpIcon';
 import { DoubleArrowDownIcon } from './DoubleArrowDownIcon';
 
+import { SingleArrowDownIcon } from './SingleArrowDownIcon';
+import { SingleArrowLeftIcon } from './SingleArrowLeftIcon';
+import { SingleArrowRightIcon } from './SingleArrowRightIcon';
+import { SingleArrowUpIcon } from './SingleArrowUpIcon';
+
 import { ArrowLeftIcon } from './ArrowLeftIcon';
 import { ArrowRightIcon } from './ArrowRightIcon';
 import { ArrowTopIcon } from './ArrowTopIcon';
@@ -42,6 +47,7 @@ import { ClockIcon } from './ClockIcon';
 
 
 
+
 type IconProps = {
   [key: string]: ({
     color,
@@ -70,6 +76,10 @@ const iconMap: IconProps = {
   DoubleArrowRightIcon,
   DoubleArroUpIcon,
   DoubleArrowDownIcon,
+  SingleArrowDownIcon,
+  SingleArrowLeftIcon,
+  SingleArrowRightIcon,
+  SingleArrowUpIcon,
   PackageIcon,
   CopyIcon,
   DotsMenuIcon,
