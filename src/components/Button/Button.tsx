@@ -47,6 +47,10 @@ const Button = ({
 
     const MappedIcon = iconMap[icon.name];
 
+    if (!MappedIcon) {
+      return null;
+    }
+
     return (
       <span className={marginSide}>
         <MappedIcon
