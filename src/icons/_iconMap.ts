@@ -45,8 +45,7 @@ import { MenuIcon } from './MenuIcon';
 import { MaximizeIcon } from './MaximizeIcon';
 import { ClockIcon } from './ClockIcon';
 import { SearchIcon } from './SearchIcon';
-
-
+import { MinusIcon } from './MinusIcon';
 
 
 type IconProps = {
@@ -64,6 +63,7 @@ type IconProps = {
 
 const iconMap: IconProps = {
   AddIcon,
+  MinusIcon,
   CancelIcon,
   DeleteIcon,
   EditIcon,
