@@ -1,5 +1,5 @@
 export const classWidth = {
-  full: 'w-full',
+  full: 'w-full !px-0',
   fit: 'w-fit',
   auto: 'w-auto'
 }
