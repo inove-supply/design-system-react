@@ -104,7 +104,11 @@ const DropdownMenu = ({
   );
 };
 
-const MenuHorizontal = ({ navigation }: { navigation: NavigationProps[] }) => {
+export const MenuHorizontal = ({
+  navigation,
+}: {
+  navigation: NavigationProps[];
+}) => {
   const Icon = iconMap["HelpIcon"];
 
   return (
@@ -125,5 +129,3 @@ const MenuHorizontal = ({ navigation }: { navigation: NavigationProps[] }) => {
     </>
   );
 };
-
-export default MenuHorizontal;
