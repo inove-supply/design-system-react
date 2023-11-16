@@ -15,7 +15,7 @@ import { Tooltip } from "../Tooltip/Tooltip";
 
 import { ButtonProps } from "./Button.types";
 
-export const Button = ({
+const Button = ({
   refProp,
   label,
   link,
@@ -134,3 +134,5 @@ export const Button = ({
     );
   }
 };
+
+export default Button;
