@@ -1,4 +1,4 @@
 import './index.css'
 
-export * from "./components"
+export { Button, Avatar, Badge, MenuHorizontal, DropdownMenu, Tooltip } from "./components"
 export * from "./icons"
