@@ -1,4 +1,4 @@
 import './index.css'
 
-export * from "./components"
+export { Button } from "./components"
 export * from "./icons"

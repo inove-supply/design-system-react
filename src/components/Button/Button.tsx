@@ -15,7 +15,7 @@ import { Tooltip } from "../Tooltip/Tooltip";
 
 import { ButtonProps } from "./Button.types";
 
-export function Button({
+export const Button = ({
   refProp,
   label,
   link,
@@ -33,7 +33,7 @@ export function Button({
   ...events
 }: ButtonProps &
   React.ButtonHTMLAttributes<HTMLButtonElement> &
-  React.AnchorHTMLAttributes<HTMLAnchorElement>) {
+  React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
   const renderIcon = (marginSide = "me-2") => {
     if (isLoading) {
       return (
@@ -133,4 +133,4 @@ export function Button({
       </button>
     );
   }
-}
+};
