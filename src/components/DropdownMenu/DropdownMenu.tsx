@@ -2,7 +2,7 @@ import React from "react";
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
 import "./styles.css";
 
-const DropdownMenu = () => {
+export const DropdownMenu = () => {
   const [bookmarksChecked, setBookmarksChecked] = React.useState(true);
   const [urlsChecked, setUrlsChecked] = React.useState(false);
   const [person, setPerson] = React.useState("pedro");
@@ -116,4 +116,3 @@ const DropdownMenu = () => {
   );
 };
 
-export default DropdownMenu;
