@@ -1,4 +1,4 @@
-export { Button } from "./Button"
+export { default as Button } from "./Button"
 export * from './Tooltip'
 export * from './Avatar'
 export * from './MenuHorizontal'
