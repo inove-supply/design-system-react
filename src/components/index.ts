@@ -1,6 +1,6 @@
-export { default as Button } from "./Button"
-export { default as Tooltip } from './Tooltip'
-export { default as Avatar } from './Avatar'
-export { default as MenuHorizontal } from './MenuHorizontal'
-export { default as DropdownMenu } from './DropdownMenu'
-export { default as Badge } from './Badge'
+export * from "./Button"
+export * from './Tooltip'
+export * from './Avatar'
+export * from './MenuHorizontal'
+export * from './DropdownMenu'
+export * from './Badge'

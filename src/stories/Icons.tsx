@@ -2,7 +2,8 @@ import React from "react";
 
 import { useMemo, useState } from "react";
 import iconMap from "../icons/_iconMap";
-import { Tooltip } from "../components";
+
+import Tooltip from "../components/Tooltip/Tooltip";
 
 export const Icons = ({
   size,
