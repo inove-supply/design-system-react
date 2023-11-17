@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import MenuHorizontal from "../components/MenuHorizontal/MenuHorizontal";
+
+import { MenuHorizontal } from "../components";
 
 const meta: Meta<typeof MenuHorizontal> = {
   title: "Example/MenuHorizontal",

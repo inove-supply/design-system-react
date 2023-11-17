@@ -1,1 +1,1 @@
-export * from './MenuHorizontal';
+export { default } from './MenuHorizontal';
