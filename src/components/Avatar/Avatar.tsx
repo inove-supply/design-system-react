@@ -1,3 +1,4 @@
+import React from "react";
 import { classNames } from "../../utils/classNames";
 import { AvatarProps, Size } from "./Avatar.types";
 
@@ -25,7 +26,7 @@ const EmptyAvatar = ({ size = "medium" }: Pick<AvatarProps, "size">) => (
   </span>
 );
 
-export function Avatar({ size = "medium", src, alt }: AvatarProps) {
+const Avatar = ({ size = "medium", src, alt }: AvatarProps) => {
   if (!src) {
     return <EmptyAvatar size={size} />;
   }
@@ -37,4 +38,6 @@ export function Avatar({ size = "medium", src, alt }: AvatarProps) {
       alt={alt}
     />
   );
-}
+};
+
+export default Avatar;

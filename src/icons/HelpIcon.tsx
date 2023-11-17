@@ -1,3 +1,5 @@
+import React from "react";
+
 export const HelpIcon = ({
   color = "gray-500",
   strokeWidth = 2,

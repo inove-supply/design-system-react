@@ -1,6 +1,7 @@
+import React from "react";
 import { BadgeProps } from "./Badge.types";
 
-export const Badge = ({
+const Badge = ({
   title,
   status = "info",
   dot = true,
@@ -37,3 +38,5 @@ export const Badge = ({
     </div>
   );
 };
+
+export default Badge;

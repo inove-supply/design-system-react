@@ -1,3 +1,5 @@
+import React from "react";
+
 export const UserIcon = ({
   color = "gray-500",
   strokeWidth = 2,

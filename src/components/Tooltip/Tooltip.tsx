@@ -3,7 +3,7 @@ import * as RadixTooltip from "@radix-ui/react-tooltip";
 import "./styles.css";
 import { TooltipProps } from "./Tooltip.types";
 
-export const Tooltip = ({ children, text, copyToClipboard }: TooltipProps) => {
+const Tooltip = ({ children, text, copyToClipboard }: TooltipProps) => {
   return (
     <RadixTooltip.Provider delayDuration={50}>
       <RadixTooltip.Root>
@@ -26,3 +26,5 @@ export const Tooltip = ({ children, text, copyToClipboard }: TooltipProps) => {
     </RadixTooltip.Provider>
   );
 };
+
+export default Tooltip;

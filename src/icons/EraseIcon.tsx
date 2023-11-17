@@ -1,3 +1,5 @@
+import React from "react";
+
 export const EraseIcon = ({
   color = "gray-500",
   strokeWidth = 2,

@@ -1,6 +1,8 @@
 import iconMap from "./_iconMap";
 import { IconProps } from "./icons.types";
 
+import React from "react";
+
 export const Icon = ({
   name,
   color = "gray-500",

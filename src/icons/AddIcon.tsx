@@ -1,3 +1,5 @@
+import React from "react";
+
 export const AddIcon = ({
   color = "white",
   strokeWidth = 2,
