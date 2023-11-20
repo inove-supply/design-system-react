@@ -1,4 +1,4 @@
-import './tailwind-entry.css'
+import './index.css'
 
 export * from "./components";
 export * from './icons'
