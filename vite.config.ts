@@ -13,14 +13,16 @@ export default defineConfig(() => ({
       include: ["src"],
     }),
   ],
+  ssr: {
+    external: ['i9-ds'],
+  },
   build: {
     lib: {
       entry: resolve("src", "index.ts"),
       name: "react-component-library",
       formats: ["es", "cjs"],
       fileName: (format) =>
-        `react-component-library.${
-          format === "cjs" ? "cjs" : "es.js"
+        `react-component-library.${format === "cjs" ? "cjs" : "es.js"
         }`,
     },
     optimizeDeps: {
