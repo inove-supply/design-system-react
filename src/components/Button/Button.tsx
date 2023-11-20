@@ -11,7 +11,7 @@ import {
 import { SpinnerIcon } from "../../icons/SpinnerIcon";
 import iconMap from "../../icons/_iconMap";
 
-import Tooltip from "../../../components/Tooltip/Tooltip";
+import { Tooltip } from "../Tooltip";
 
 import { ButtonProps } from "./Button.types";
 
