@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const WavesIcon = ({
   color = "gray-500",

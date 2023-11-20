@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const LockIcon = ({
   color = "gray-500",

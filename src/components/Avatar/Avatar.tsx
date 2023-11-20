@@ -1,4 +1,3 @@
-import React from "react";
 import { classNames } from "../../utils/classNames";
 import { AvatarProps, Size } from "./Avatar.types";
 

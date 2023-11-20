@@ -1,4 +1,3 @@
-import React from "react";
 import { BadgeProps } from "./Badge.types";
 
 const Badge = ({

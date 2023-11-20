@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const CopyIcon = ({
   color = "gray-500",

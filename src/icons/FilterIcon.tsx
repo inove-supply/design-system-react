@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const FilterIcon = ({
   color = "gray-500",

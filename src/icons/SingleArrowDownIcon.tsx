@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const SingleArrowDownIcon = ({
   color = "gray-500",

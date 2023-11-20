@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const DoubleArrowRightIcon = ({
   color = "gray-500",

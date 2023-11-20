@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const RefreshIcon = ({
   color = "gray-500",

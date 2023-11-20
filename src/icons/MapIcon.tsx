@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const MapIcon = ({
     color = 'gray-500',

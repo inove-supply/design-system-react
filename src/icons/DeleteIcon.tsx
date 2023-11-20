@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const DeleteIcon = ({
   color = "gray-500",

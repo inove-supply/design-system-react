@@ -1,4 +1,4 @@
-import React, { ComponentType } from "react";
+import { ComponentType } from "react";
 
 import iconMap from "../../icons/_iconMap";
 import { NavigationProps } from "./MenuHorizontal.types";

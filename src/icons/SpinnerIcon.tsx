@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const SpinnerIcon = ({
   color = "gray-500",

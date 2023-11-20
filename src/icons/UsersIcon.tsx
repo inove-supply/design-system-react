@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const UsersIcon = ({
   color = "gray-500",

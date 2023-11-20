@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const ArrowTopIcon = ({
   color = "gray-500",

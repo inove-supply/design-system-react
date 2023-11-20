@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const PackageIcon = ({
   color = "gray-500",
