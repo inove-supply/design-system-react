@@ -1,8 +1,8 @@
 import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { ButtonThemes, ButtonVariants } from "../components/Button/Enums";
-import Button from "../components/Button/Button";
+import { ButtonThemes, ButtonVariants } from "../Button/Enums";
+import Button from "../Button/Button";
 
 const meta: Meta<typeof Button> = {
   title: "Example/Button",

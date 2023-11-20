@@ -1,6 +1,6 @@
 import React, { ComponentType, useState } from "react";
 
-import iconMap from "../../icons/_iconMap";
+import iconMap from "../icons/_iconMap";
 import { NavigationProps } from "./MenuHorizontal.types";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import "./styles.css";

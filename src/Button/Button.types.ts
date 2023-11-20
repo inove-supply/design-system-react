@@ -1,4 +1,4 @@
-import iconMap from '../../icons/_iconMap'
+import iconMap from '../icons/_iconMap'
 import {
     ButtonAligns,
     ButtonSizes,
