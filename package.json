@@ -1,6 +1,6 @@
 {
   "name": "i9-ds",
-  "version": "0.1.76",
+  "version": "0.1.77",
   "type": "module",
   "types": "dist/index.d.ts",
   "license": "MIT",
