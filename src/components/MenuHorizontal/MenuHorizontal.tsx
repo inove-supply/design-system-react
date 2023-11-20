@@ -25,33 +25,40 @@ function LinkComponent<T extends React.ElementType>({
 }
 
 const Categories = ({ navigation }: { navigation: NavigationProps[] }) => {
-  return navigation.map((item) => (
-    <NavigationMenu.Item>
-      {item.subNav ? (
-        <>
-          <NavigationMenu.Trigger className="text-gray-500 font-semibold">
-            {item.label} <CaretDownIcon className="CaretDown" aria-hidden />
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="NavigationMenuContent">
-            <DropdownMenu
-              hoveredMenu={item.label}
-              navigationDropdown={item.subNav}
+  return (
+    <>
+      {navigation.map((item) => (
+        <NavigationMenu.Item>
+          {item.subNav ? (
+            <>
+              <NavigationMenu.Trigger className="text-gray-500 font-semibold">
+                {item.label} <CaretDownIcon className="CaretDown" aria-hidden />
+              </NavigationMenu.Trigger>
+              <NavigationMenu.Content className="NavigationMenuContent">
+                <DropdownMenu
+                  hoveredMenu={item.label}
+                  navigationDropdown={item.subNav}
+                />
+              </NavigationMenu.Content>
+            </>
+          ) : item.nextLink ? (
+            <LinkComponent
+              customClass="text-gray-500 font-semibold"
+              {...item}
             />
-          </NavigationMenu.Content>
-        </>
-      ) : item.nextLink ? (
-        <LinkComponent customClass="text-gray-500 font-semibold" {...item} />
-      ) : (
-        <a
-          className="text-gray-500 font-semibold"
-          href={item.href}
-          target={item.externalLink ? "_blank" : "_self"}
-        >
-          {item.label}
-        </a>
-      )}
-    </NavigationMenu.Item>
-  ));
+          ) : (
+            <a
+              className="text-gray-500 font-semibold"
+              href={item.href}
+              target={item.externalLink ? "_blank" : "_self"}
+            >
+              {item.label}
+            </a>
+          )}
+        </NavigationMenu.Item>
+      ))}
+    </>
+  );
 };
 const SelectedCategoryMenus = ({
   navigationDropdown,
@@ -63,29 +70,31 @@ const SelectedCategoryMenus = ({
   }
 
   return (
-    navigationDropdown?.map((subitem) => {
-      const Icon = subitem.icon ? iconMap[subitem.icon] : null;
+    <>
+      {navigationDropdown?.map((subitem) => {
+        const Icon = subitem.icon ? iconMap[subitem.icon] : null;
 
-      return (
-        <li
-          className="text-blue-900 text-base NavigationMenuLink"
-          key={subitem.label}
-        >
-          {subitem.nextLink ? (
-            <LinkComponent {...subitem} />
-          ) : (
-            <a
-              target={subitem.externalLink ? "_blank" : "_self"}
-              href={subitem.href}
-              className="flex gap-2 items-center"
-            >
-              {Icon && <Icon strokeWidth={1.5} />}
-              {subitem.label}
-            </a>
-          )}
-        </li>
-      );
-    }) ?? []
+        return (
+          <li
+            className="text-blue-900 text-base NavigationMenuLink"
+            key={subitem.label}
+          >
+            {subitem.nextLink ? (
+              <LinkComponent {...subitem} />
+            ) : (
+              <a
+                target={subitem.externalLink ? "_blank" : "_self"}
+                href={subitem.href}
+                className="flex gap-2 items-center"
+              >
+                {Icon && <Icon strokeWidth={1.5} />}
+                {subitem.label}
+              </a>
+            )}
+          </li>
+        );
+      })}
+    </>
   );
 };
 
@@ -99,7 +108,9 @@ const DropdownMenu = ({
   return (
     <ul className="List">
       <div className="HoveredMenu">{hoveredMenu}</div>
-      <SelectedCategoryMenus navigationDropdown={navigationDropdown} />
+      <>
+        <SelectedCategoryMenus navigationDropdown={navigationDropdown} />
+      </>
     </ul>
   );
 };

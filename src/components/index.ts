@@ -1,3 +1,7 @@
 export * from './Card'
 export * from './Button'
 export * from './Tooltip'
+export * from './Avatar'
+export * from './Badge'
+export * from './DropdownMenu'
+export * from './MenuHorizontal'
