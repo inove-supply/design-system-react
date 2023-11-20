@@ -17,6 +17,7 @@
     "dist"
   ],
   "scripts": {
+    "deploy": "npm version patch && npm publish",
     "build": "vite build && npm run build:css",
     "build:css": "tailwindcss -m -i ./src/tailwind-entry.css -o ./dist/styles.css",
     "storybook": "concurrently \"npm run storybook:css\" \"storybook dev -p 6006\"",
