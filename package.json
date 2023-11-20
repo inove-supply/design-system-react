@@ -1,6 +1,6 @@
 {
   "name": "i9-ds",
-  "version": "0.1.75",
+  "version": "0.1.76",
   "type": "module",
   "types": "dist/index.d.ts",
   "exports": {
